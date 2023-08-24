@@ -1,0 +1,18 @@
+h1 {
+  color: red;
+  font-size: 20px;
+}
+#heading1 {
+  color: orange;
+  font-size: 20px;
+}
+.heading2 {
+  color: green;
+  font-size: 20px;
+}
+:root {
+  --text-color: purple;
+}
+h2 {
+  color: var(--text-color);
+}

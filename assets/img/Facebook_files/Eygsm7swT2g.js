@@ -1,0 +1,5 @@
+;/*FB_PKG_DELIM*/
+
+__d("PrivacyCheckupCometRootQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="6416346175116493"}),null);
+__d("PrivacyCheckupCometRootQuery$Parameters",["PrivacyCheckupCometRootQuery_facebookRelayOperation"],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:b("PrivacyCheckupCometRootQuery_facebookRelayOperation"),metadata:{},name:"PrivacyCheckupCometRootQuery",operationKind:"query",text:null}};e.exports=a}),null);
+__d("PrivacyCheckupCometRoot.entrypoint",["JSResourceForInteraction","PrivacyCheckupCometRootQuery$Parameters","WebPixelRatio"],(function(a,b,c,d,e,f,g){"use strict";a={getPreloadProps:function(a){a=a.routeProps;a=a.topicsCollectionID;return{queries:{topicsCollectionQueryReference:{parameters:b("PrivacyCheckupCometRootQuery$Parameters"),variables:{scale:d("WebPixelRatio").get(),topicsCollectionID:a}}}}},root:c("JSResourceForInteraction")("PrivacyCheckupCometRoot.react").__setRef("PrivacyCheckupCometRoot.entrypoint")};g["default"]=a}),98);

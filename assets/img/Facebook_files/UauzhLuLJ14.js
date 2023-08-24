@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("CometResharesDialogSummaryLayout.react",["react"],(function(a,b,c,d,e,f,g){"use strict";var h=d("react");function a(a){var b=a.content,c=a.context;a=a.image;return h.jsxs("div",{className:"xmjcpbm x1lq5wgf xgqcy7u x30kzoy x9jhf4c x9f619 x78zum5 xdt5ytf xdj266r x11i5rnm xat24cr x1mh8g0r x1mzt3pk xz9dl7a xn6708d xsag5q8 x1ye3gou x47corl xeaf4i8 x13faqbe",children:[c&&h.jsx("div",{className:"x1t4gjm",children:c}),h.jsxs("div",{className:"x6s0dn4 x78zum5 x1qughib",children:[b,b!=null&&a!=null&&h.jsx("div",{className:"xdl72j9 x1c4vz4f x2lah0s x6jxa94"}),a]})]})}a.displayName=a.name+" [from "+f.id+"]";g["default"]=a}),98);

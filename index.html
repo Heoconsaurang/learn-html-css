@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <!-- Phần đầu -->
+  <head>
+    <title>Thuc hanh</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.CSS" />
+
+    <style>
+      h1 {
+        color: rgb(195, 0, 255);
+        font-size: 20px;
+      }
+      .heading1 {
+        color: rgb(195, 0, 255);
+        font-size: 20px;
+      }
+      .box {
+        width: 100px;
+        height: 100px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        float: left;
+        background-color: blueviolet;
+        padding: 16px;
+        border: 2px solid #333;
+        box-sizing: border-box;
+      }
+      .box::before {
+        content: "";
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-color: #fff;
+      }
+      .box::after {
+        content: "";
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-color: #fff;
+      }
+      .box1 {
+        background-color: brown;
+      }
+      .box2 {
+        background-color: orangered;
+      }
+      .box3 {
+        background-color: yellow;
+        padding: 10px 12px 8px 6px;
+        border-width: 10px 12px 8px 6px;
+        margin: 10px 12px 8px 6px;
+      }
+      .header {
+        width: 100%;
+        height: 100vh;
+        /* background-color: rgb(195, 0, 255); */
+        /* padding: 20px; */
+        /* box-sizing: border-box; */
+        /* border: 10px dashed #ccc; */
+        /* background-clip: padding-box; */
+        background-image: linear-gradient(
+            0,
+            rgba(255, 255, 0, 0.5),
+            rgba(0, 0, 255, 0.5)
+          ),
+          url(https://www.pngall.com/wp-content/uploads/14/Cute-PNG-Photos.png),
+          url(https://scontent.fhan2-4.fna.fbcdn.net/v/t39.30808-6/363850902_805562974393095_8320415154176519327_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=6GXAh2XUs1cAX_YBvhI&_nc_ht=scontent.fhan2-4.fna&oh=00_AfBTIdFRzEzbTz4d-siKvJYkH32oniKsnqqi5IRQcIrg0Q&oe=64CD27ED);
+        background-size: 200px;
+        background-repeat: no-repeat;
+        background-origin: padding-box;
+        background-position: top 20px right 20px;
+      }
+      a::after {
+        content: "(" attr(href) ")";
+      }
+      .box4 {
+        width: 100px;
+        height: 120px;
+        background-color: #333;
+        position: relative;
+      }
+      .box4-child {
+        width: 50px;
+        height: 50px;
+        background-color: #fff;
+        position: absolute;
+      }
+    </style>
+  </head>
+
+  <!-- Phần thân -->
+  <body>
+    <div>
+      <!-- thẻ tiêu đề, bao gồm h1 đến h6 -->
+      <h1>Thẻ HTML thông dụng</h1>
+
+      <!-- Tạo nút -->
+      <button>Đăng nhập</button>
+
+      <!-- form nhập dữ liệu -->
+      <input type="text" />
+      <input type="Radio" />
+
+      <!-- thẻ nội dung -->
+      <p>
+        Tham gia các khóa học MIỄN PHÍ tại F8 tại đây nhé (đã quyết định theo
+        thì hãy cố gắng đến cùng
+      </p>
+
+      <!-- thẻ hình ảnh: src: nguồn của ảnh, alt: chú thích của ảnh -->
+      <img
+        src="https://scontent.fhan2-4.fna.fbcdn.net/v/t39.30808-6/364248608_697470985550604_844391239521294019_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=FNjkW84wJo0AX_R4xNB&_nc_ht=scontent.fhan2-4.fna&oh=00_AfBt05CWtbcl7TRKH_EowT6LqZdQ-bCG-KGyNWrahL0X8w&oe=64CB6434"
+        alt="Ảnh Tuyển dụng"
+      />
+
+      <!-- thẻ truy cập liên kết -->
+      <a
+        href="https://www.youtube.com/watch?v=AzmdwZ6e_aM&list=PL_-VfJajZj0U9nEXa4qyfB4U5ZIYCMPlz&index=7&ab_channel=F8Official"
+        >Tới trang học lập trình</a
+      >
+
+      <!-- Hiển thị dạng danh sách -->
+      <!-- danh sách tùy ý sắp xếp thứ tự -->
+      <!-- hiển thị danh sách chứa nhiều phần tử bên trong -->
+      <ul>
+        <li>HTML, CSS là gì?</li>
+        <li>Làm quen Dev tools</li>
+        <li>Comment trong HTLM</li>
+        <li>Thẻ HTML thông dụng</li>
+      </ul>
+
+      <!-- Tạo bảng -->
+      <table>
+        <!-- Tiêu đề -->
+        <thead>
+          <th>STT</th>
+          <th>Tên</th>
+          <th>Địa chỉ</th>
+        </thead>
+        <!-- Phần thân -->
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Uyên Huỳnh</td>
+            <td>Đà Nẵng</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Sam</td>
+            <td>Đà Nẵng</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Heo</td>
+            <td>Đà Nẵng</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Thuộc tính của HTML -->
+    <h1 title="Đây là tiêu đề">Attribute</h1>
+
+    <!-- Thuộc tính style -->
+    <div>
+      <h1 style="color: blue; font-size: 20px">CSS trong HTML</h1>
+      <ol>
+        <li>Internal: Sử dụng trực tiếp trên thẻ html bằng thẻ style</li>
+        <li>Extenal: Sử dụng file riêng, có đuôi là CSS</li>
+        <li>Inline: sử dụng trực tiếp trong thẻ</li>
+      </ol>
+    </div>
+
+    <!-- ID và Class -->
+    <div>
+      <h1 id="heading1">Tiêu đề 1</h1>
+      <h1 class="heading2">Tiêu đề 2</h1>
+      <h1 class="heading2">Tiêu đề 3</h1>
+    </div>
+
+    <div>
+      <h2>Test</h2>
+    </div>
+
+    <!-- <div class="box box1">Box 1</div> -->
+    <!-- <div class="box box2">Box 2</div> -->
+    <!-- <div class="box box3">Box 3</div> -->
+    <div class="box">Đây là nội dung</div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="header"></div>
+
+    <a href="https://www.facebook.com">Facebook</a>
+
+    <div class="box4">
+      <div class="box4-child"></div>
+    </div>
+  </body>
+</html>
